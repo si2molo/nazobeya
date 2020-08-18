@@ -1,0 +1,81 @@
+<script type=text/javascript>
+<!--
+flg = false
+function KEY(btnNo){
+​ if(btnNo == 6){
+​ flg = true
+​ }
+​ else if(flg == true && btnNo == 8)
+​ {
+​ location.href= "http://www.scrapmagazine.com/nazobeya_3/"
+​ }
+​ else{
+​ /* 他のボタンが押されたらフラグをoff */
+​ flg = false
+​ }
+}
+//-->
+</script>
+
+<html>
+<body>
+<h3>解除番号</h3>
+<style type="text/css">
+.btn-sf-like {
+​ position: relative;
+​ display: inline-block;
+​ font-weight: bold;
+​ width: 150px;
+​ height: 150px;
+​ font-size: 50px;
+​ color: #FFF;
+​ text-shadow: 0 0 5px rgba(255, 255, 255, 0.73);
+​ padding: 0.3em 0.5em;
+​ background: #00bcd4;
+​ border-top: solid 3px #00a3d4;
+​ border-bottom: solid 3px #00a3d4;
+​ transition: .4s;
+}
+.btn-sf-like:hover {
+​ text-shadow: -6px 0px 15px rgba(255, 255, 240, 0.83),
+​ ​ ​ ​ ​ ​ ​ ​ 6px 0px 15px rgba(255, 255, 240, 0.83);
+}
+}
+</style>
+​ <table border="1">
+​ ​ <tr>
+​ ​ ​ <td>
+<INPUT type="button" name="a_button" value="1" class="btn-sf-like" onclick="KEY(1)">
+​ ​ ​ </td>
+​ ​ ​ <td>
+<INPUT type="button" name="a_button" value="2" class="btn-sf-like" onclick="KEY(2)">
+​ ​ ​ </td>
+​ ​ ​ <td>
+<INPUT type="button" name="a_button" value="3" class="btn-sf-like" onclick="KEY(3)">
+​ ​ ​ </td>
+​ ​ </tr>
+​ ​ <tr>
+​ ​ ​ <td>
+​ ​ ​ ​ ​ <INPUT type="button" name="a_button" value="4" class="btn-sf-like" onclick="KEY(4)">
+​ ​ ​ </td>
+​ ​ ​ ​ <td>
+​ ​ ​ ​ ​ <INPUT type="button" name="a_button" value="5" class="btn-sf-like" onclick="KEY(5)">
+​ ​ ​ </td>
+​ ​ ​ ​ <td>
+​ ​ ​ ​ ​ <INPUT type="button" name="a_button" value="6" class="btn-sf-like" onclick="KEY(6)">
+​ ​ ​ </td>
+​ ​ </tr>
+​ ​ <tr>
+​ ​ ​ <td>
+​ ​ ​ ​ ​ <INPUT type="button" name="a_button" value="7" class="btn-sf-like" onclick="KEY(7)">
+​ ​ ​ </td>
+​ ​ ​ ​ <td>
+​ ​ ​ ​ <INPUT type="button" name="a_button" value="8" class="btn-sf-like" onclick="KEY(8)">
+​ ​ ​ </td>
+​ ​ ​ ​ <td>
+​ ​ ​ ​ <INPUT type="button" name="a_button" value="9" class="btn-sf-like" onclick="KEY(9)">
+​ ​ ​ </td>
+​ ​ </tr>
+​ </table>
+​ </body>
+　</html>
